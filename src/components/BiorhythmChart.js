@@ -1,4 +1,4 @@
-import { LineChart, ResponsiveContainer, XAxis, Line, Tooltip } from 'recharts';
+import { LineChart, ResponsiveContainer, XAxis, Line } from 'recharts';
 import React from 'react';
 import { calculateBiorhythmSeries } from '../calculation';
 import dayjs from 'dayjs';

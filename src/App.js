@@ -10,7 +10,6 @@ import {
   IonDatetime,
 } from '@ionic/react';
 import React, { useState } from 'react';
-import BiorhythmChart from './components/BiorhythmChart';
 import { useLocalStorage } from './hooks';
 import BiorhythmCard from './components/BiorhythmCard';
 
