@@ -1,4 +1,4 @@
-import { LineChart, ResponsiveContainer, XAxis, Line } from 'recharts';
+import { LineChart, ResponsiveContainer, XAxis, Line, Tooltip } from 'recharts';
 import React from 'react';
 import { calculateBiorhythmSeries } from '../calculation';
 import dayjs from 'dayjs';
@@ -6,7 +6,6 @@ import dayjs from 'dayjs';
 function BiorhythmChart({ birthDate, targetDate }) {
     const startDate = dayjs(targetDate).subtract(15, 'days').toISOString();
     const data = calculateBiorhythmSeries(birthDate, startDate, 31);
-    console.log({data});
     return (
         <ResponsiveContainer width="100%" height={200}>
             <LineChart data={data}>
