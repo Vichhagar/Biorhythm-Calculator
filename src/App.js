@@ -56,9 +56,6 @@ function App() {
           }
           />
         </IonItem>
-        { birthDate && targetDate &&
-          <BiorhythmChart birthDate = {birthDate} targetDate = {targetDate}/>
-        }
 
       </IonContent>
     </IonApp>
