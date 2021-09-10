@@ -22,9 +22,9 @@ function BiorhythmCard({birthDate, targetDate}) {
             </IonCardHeader>
             <BiorhythmChart birthDate={birthDate} targetDate={targetDate} />
             <IonCardContent>
-                <p className = ".physical">Physical: { physical.toFixed(4) }</p>
-                <p className = ".emotional">Emotional: { emotional.toFixed(4) }</p>
-                <p className = ".intellectual">Intellectual: { intellectual.toFixed(4) }</p>
+                <p className = "physical">Physical: { physical.toFixed(4) }</p>
+                <p className = "emotional">Emotional: { emotional.toFixed(4) }</p>
+                <p className = "intellectual">Intellectual: { intellectual.toFixed(4) }</p>
             </IonCardContent>
         </IonCard>
         
