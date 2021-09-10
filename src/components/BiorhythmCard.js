@@ -16,7 +16,7 @@ function formatDate(isoString) {
 function BiorhythmCard({birthDate, targetDate}) {
     const {physical, emotional, intellectual} = calculateBiorhythms(birthDate, targetDate);
     return (
-        <IonCard className="ion-text-center">
+        <IonCard className="ion-text-center biorhythm-card">
             <IonCardHeader>
             <IonCardTitle>{formatDate(new Date())}</IonCardTitle>
             </IonCardHeader>

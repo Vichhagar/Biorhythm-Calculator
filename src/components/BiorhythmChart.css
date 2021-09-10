@@ -1,0 +1,9 @@
+.biorhythm-chart .emotional {
+    stroke: red;
+}
+.biorhythm-chart .physical {
+    stroke: blue;
+}
+.biorhythm-chart .intellectual {
+    stroke: green;
+}
