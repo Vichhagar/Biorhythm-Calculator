@@ -1,9 +1,9 @@
-.biorhythm-chart .emotional {
+.biorhythm-chart .emotional path{
     stroke: red;
 }
-.biorhythm-chart .physical {
+.biorhythm-chart .physical path{
     stroke: blue;
 }
-.biorhythm-chart .intellectual {
+.biorhythm-chart .intellectual path{
     stroke: green;
 }
